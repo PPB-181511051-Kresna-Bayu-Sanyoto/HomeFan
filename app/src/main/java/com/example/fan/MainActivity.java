@@ -84,6 +84,8 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     rotateAnimator.end();
                 }
+                lights.callOnClick();
+
             }
             @Override
             public void onStartTrackingTouch(SeekBar seekBar){
